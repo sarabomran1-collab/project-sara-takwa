@@ -51,13 +51,6 @@ bool inBounds(int x, int y) {
 bool passable(int x, int y) {
     return inBounds(x, y) && maze[x][y] != WALL;
 }
-void clearScreen() {
-    #ifdef _WIN32
-    system("cls");
-    #else
-    system("clear");
-    #endif
-}
 
 /* ---------- print maze ---------- */
 void printMaze(const set<Node>& vis, Node current, int step) {
