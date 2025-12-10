@@ -15,7 +15,7 @@ struct Node {
     int x, y;
     Node(int x = 0, int y = 0) : x(x), y(y) {}
     bool operator==(const Node& o) const { return x == o.x && y == o.y; }
-    bool operator<(const Node& o)  const { return x < o.x || (x == o.x && y < o.y); }
+    bool operator<(const Node& o)  const { return x < o.x  (x == o.x && y < o.y); }
 };
 
 /* ---------- globals ---------- */
@@ -73,17 +73,17 @@ void printMaze(const set<Node>& vis, Node current, int step) {
         cout << '\n';
     }
     cout.flush();
-    this_thread::sleep_for(chrono::milliseconds(100));
+    this_thread::sleep_for(chrono::milliseconds(550));
 }
 
 /* ---------- Result ---------- */
 struct Result {
     bool found;
-    int pathLen;
-    int expanded;
-    double timeMS;
+    int  pathLen;
+    int  expanded;
+    int  pathCells;    //  P
+    double timeSec;
 };
-
 /* ---------- BFS ---------- */
 Result runBFS() {
     queue<Node> q;
@@ -92,7 +92,7 @@ Result runBFS() {
     q.push(startNode);
     vis.insert(startNode);
 
-    int step = 0;
+    int step = 0, pathLen = 0, pathCells = 0;   // عدّاد الخلايا المرسومة
     auto st = high_resolution_clock::now();
     bool found = false;
 
@@ -115,14 +115,16 @@ Result runBFS() {
     }
 
     auto en = high_resolution_clock::now();
-    double t = duration<double, milli>(en - st).count();
+    double t = duration<double>(en - st).count();
 
     clearScreen();
     if (found) {
         Node walk = goalNode;
         while (!(walk == startNode)) {
-            if (maze[walk.x][walk.y] != START && maze[walk.x][walk.y] != GOAL)
+            if (maze[walk.x][walk.y] != START && maze[walk.x][walk.y] != GOAL) {
                 maze[walk.x][walk.y] = PATH;
+                ++pathCells;            // عدّ الخلايا اللي اتغيّرت
+            }
             walk = parent[walk];
         }
         cout << "BFS solved maze:\n";
@@ -130,10 +132,15 @@ Result runBFS() {
         cout << "BFS failed – final explored state:\n";
     }
     for (auto& row : maze) { for (char c : row) cout << c; cout << '\n'; }
-    cout << "\nNodes expanded: " << step << "\nTime: " << t << " ms\n\n";
-    return {found, 0, step, t};
-}
 
+    // طباعة القيم الجديدة
+    cout << "\nNodes expanded: " << step
+         << "\nPath length   : " << pathLen
+         << "\nPath cells    : " << pathCells
+         << "\nTime          : " << t << " s\n\n";
+
+    return {found, pathLen, step, pathCells, t};
+}
 /* ---------- DFS ---------- */
 Result runDFS() {
     vector<Node> stack;
@@ -142,7 +149,7 @@ Result runDFS() {
     stack.push_back(startNode);
     vis.insert(startNode);
 
-    int step = 0;
+    int step = 0, pathLen = 0,pathCells = 0;
     auto st = high_resolution_clock::now();
     bool found = false;
 
@@ -165,7 +172,7 @@ Result runDFS() {
     }
 
     auto en = high_resolution_clock::now();
-    double t = duration<double, milli>(en - st).count();
+    double t = duration<double>(en - st).count();
 
     clearScreen();
     if (found) {
@@ -180,8 +187,8 @@ Result runDFS() {
         cout << "DFS failed – final explored state:\n";
     }
     for (auto& row : maze) { for (char c : row) cout << c; cout << '\n'; }
-    cout << "\nNodes expanded: " << step << "\nTime: " << t << " ms\n\n";
-    return {found, 0, step, t};
+    cout << "\nNodes expanded: " << step << "\nTime: " << t << " s\n\n";
+    return {found, pathLen, step, pathCells, t};
 }
 /* ---- Manhattan Heuristic ---- */
 int heuristic(const Node& a, const Node& b) {
@@ -202,7 +209,7 @@ Result runAstar() {
 
     set<Node> vis;
 
-    int step = 0;
+    int step = 0, pathLen = 0,pathCells = 0;
     auto st = high_resolution_clock::now();
     bool found = false;
 
@@ -233,7 +240,7 @@ Result runAstar() {
 
             int newG = g[cur] + 1;
 
-            if (!g.count(nb) || newG < g[nb]) {
+            if (!g.count(nb)  newG < g[nb]) {
                 g[nb] = newG;
                 int f = newG + heuristic(nb, goalNode);
                 pq.push({f, nb});
@@ -243,7 +250,7 @@ Result runAstar() {
     }
 
     auto en = high_resolution_clock::now();
-    double t = duration<double, milli>(en - st).count();
+    double t = duration<double>(en - st).count();
 
     clearScreen();
 
@@ -261,11 +268,11 @@ Result runAstar() {
         cout << "A* solved maze:\n";
         for (auto& r : maze) { for (char c : r) cout << c; cout << '\n'; }
 
-        cout << "\nNodes expanded: " << step;
-        cout << "\nPath length: " << pathLen;
-        cout << "\nTime: " << t << " ms\n\n";
 
-        return {true, pathLen, step, t};
+
+        cout << "\nNodes expanded: " << step << "\nTime: " << t << " s\n\n";
+        cout << "\nPath length: " << pathLen;
+      return {found, pathLen, step, pathCells, t};
     }
 
     else {
@@ -273,33 +280,116 @@ Result runAstar() {
         return {false, 0, step, t};
     }
 }
+/* ---------- UCS ---------- */
+Result runUCS() {
+    using P = pair<int, Node>;  // cost, node
+    priority_queue<P, vector<P>, greater<P>> pq;
 
+    map<Node, int> g;
+    map<Node, Node> parent;
+    set<Node> vis;
+
+    g[startNode] = 0;
+    pq.push({0, startNode});
+
+    int step = 0 ,pathLen = 0,pathCells = 0;
+    auto st = high_resolution_clock::now();
+    bool found = false;
+
+    while (!pq.empty()) {
+        Node cur = pq.top().second;
+        int curCost = pq.top().first;
+        pq.pop();
+       step++;
+        printMaze(vis, cur, step);
+
+        if (cur == goalNode) {
+            found = true;
+            break;
+        }
+
+        if (vis.count(cur)) continue;
+        vis.insert(cur);
+
+        int dx[] = {-1, 1, 0, 0};
+        int dy[] = {0, 0, -1, 1};
+
+        for (int k = 0; k < 4; k++) {
+            int nx = cur.x + dx[k];
+            int ny = cur.y + dy[k];
+            Node nb(nx, ny);
+
+            if (!passable(nx, ny)) continue;
+
+            int newG = g[cur] + 1;
+
+            if (!g.count(nb) || newG < g[nb]) {
+                g[nb] = newG;
+                pq.push({newG, nb});
+                parent[nb] = cur;
+            }
+        }
+    }
+
+    auto en = high_resolution_clock::now();
+    double t = duration<double>(en - st).count();
+
+    clearScreen();
+
+    if (found) {
+        int pathLen = 0;
+        Node cur = goalNode;
+
+        while (!(cur == startNode)) {
+            if (maze[cur.x][cur.y] != 'S' && maze[cur.x][cur.y] != 'G')
+                maze[cur.x][cur.y] = 'P';
+            cur = parent[cur];
+            pathLen++;
+        }
+
+        cout << "UCS solved maze:\n";
+        for (auto& r : maze) { for (char c : r) cout << c; cout << '\n'; }
+
+        cout << "\nNodes expanded: " << step << "\nTime: " << t << " s\n\n";
+        cout << "\nPath length: " << pathLen;
+
+
+        return {found, pathLen, step, pathCells, t};
+    }
+
+    cout << "UCS failed.\n";
+    return {false, 0, step, t};
+}
 /* ---------- file savers ---------- */
 void saveCSV(const string& algo, const Result& r, const string& label) {
+    static bool headerWritten = false;
     ofstream f("results.csv", ios::app);
-    if (f.tellp() == 0) f << "Algorithm,Maze,PathLen,Expanded,TimeMS\n";
-    f << algo << "," << label << "," << r.pathLen << "," << r.expanded << "," << r.timeMS << "\n";
+    if (!headerWritten) {
+        f << "Algorithm,Maze,PathLen,Expanded,PathCells,TimeSec\n";
+        headerWritten = true;
+    }
+    f << algo << ',' << label << ',' << r.pathLen << ',' << r.expanded << ',' << r.pathCells << ',' << r.timeSec << '\n';
 }
 void saveReport(const string& algo, const Result& r, const string& label) {
     ofstream f("report.txt", ios::app);
     f << "Algorithm: " << algo << "  (" << label << ")\n";
-    f << "  Goal reached: " << (r.found ? "YES" : "NO") << "\n";
-    f << "  Nodes expanded: " << r.expanded << "\n";
-    f << "  Time (ms): " << r.timeMS << "\n\n";
+    f << "  Goal reached : " << (r.found ? "YES" : "NO") << '\n';
+    f << "  Nodes expanded: " << r.expanded << '\n';
+    f << "  Path length   : " << r.pathLen << '\n';
+    f << "  Path cells    : " << r.pathCells << '\n';   // <===
+    f << "  Time          : " << r.timeSec << " s\n\n";
 }
 
-/* ---------- main ---------- */
 int main() {
-    /* ---------- 1.  load every maze from disk ---------- */
+   
     vector<vector<vector<char>>> allMazes = loadAllMazes("mazes.txt");
     if (allMazes.empty()) {
         cout << "No mazes found in mazes.txt – exiting.\n";
         return 0;
     }
 
-    /* ---------- 2.  pick algorithm ---------- */
     cout << "=== Run search on every maze inside mazes.txt ===\n";
-    cout << "Choose algorithm: (b) BFS  (d) DFS  (a) A* : ";
+    cout << "Choose algorithm: (b) BFS  (d) DFS  (a) A*  (u) UCS : ";
     char choice;
     cin >> choice;
     cin.ignore(numeric_limits<streamsize>::max(), '\n');   // flush rest of line
@@ -308,6 +398,7 @@ int main() {
     switch (tolower(choice)) {
         case 'd': algo = "DFS";    break;
         case 'a': algo = "Astar";  break;
+        case 'u': algo = "UCS";    break;
         default : algo = "BFS";    break;
     }
 
@@ -327,16 +418,19 @@ int main() {
         Result r;
         if (algo == "DFS")        r = runDFS();
         else if (algo == "Astar") r = runAstar();
+        else if (algo == "UCS")   r = runUCS();
         else                      r = runBFS();
 
         string label = "Maze-" + to_string(idx + 1);
         saveCSV(algo, r, label);
         saveReport(algo, r, label);
-
-        cout << "(Press Enter to continue to next maze...)";
+cout << "(Press Enter to continue to next maze...)";
         cin.ignore();
-    }
 
+
+      saveReport(algo, r, label);
+    }
     cout << "\nAll mazes processed.  Check results.csv & report.txt\n";
     return 0;
 }
+      
