@@ -1,3 +1,4 @@
+#include <iostream>
 #include <vector>
 #include <queue>
 #include <set>
@@ -14,7 +15,7 @@ struct Node {
     int x, y;
     Node(int x = 0, int y = 0) : x(x), y(y) {}
     bool operator==(const Node& o) const { return x == o.x && y == o.y; }
-    bool operator<(const Node& o)  const { return x < o.x  (x == o.x && y < o.y); }
+    bool operator<(const Node& o)  const { return x < o.x  ||(x == o.x && y < o.y); }
 };
 
 /* ---------- globals ---------- */
@@ -208,7 +209,7 @@ Result runAstar() {
 
     set<Node> vis;
 
-    int step = 0, pathLen = 0,pathCells = 0;
+    int step = 0;
     auto st = high_resolution_clock::now();
     bool found = false;
 
@@ -239,7 +240,7 @@ Result runAstar() {
 
             int newG = g[cur] + 1;
 
-            if (!g.count(nb)  newG < g[nb]) {
+            if (!g.count(nb) || newG < g[nb]) {
                 g[nb] = newG;
                 int f = newG + heuristic(nb, goalNode);
                 pq.push({f, nb});
@@ -249,7 +250,7 @@ Result runAstar() {
     }
 
     auto en = high_resolution_clock::now();
-    double t = duration<double>(en - st).count();
+    double t = duration<double, milli>(en - st).count();
 
     clearScreen();
 
@@ -267,11 +268,11 @@ Result runAstar() {
         cout << "A* solved maze:\n";
         for (auto& r : maze) { for (char c : r) cout << c; cout << '\n'; }
 
-
-
-        cout << "\nNodes expanded: " << step << "\nTime: " << t << " s\n\n";
+        cout << "\nNodes expanded: " << step;
         cout << "\nPath length: " << pathLen;
-      return {found, pathLen, step, pathCells, t};
+        cout << "\nTime: " << t << " ms\n\n";
+
+        return {true, pathLen, step, t};
     }
 
     else {
@@ -279,6 +280,7 @@ Result runAstar() {
         return {false, 0, step, t};
     }
 }
+
 /* ---------- UCS ---------- */
 Result runUCS() {
     using P = pair<int, Node>;  // cost, node
@@ -380,7 +382,7 @@ void saveReport(const string& algo, const Result& r, const string& label) {
 }
 
 int main() {
-   
+
     vector<vector<vector<char>>> allMazes = loadAllMazes("mazes.txt");
     if (allMazes.empty()) {
         cout << "No mazes found in mazes.txt – exiting.\n";
