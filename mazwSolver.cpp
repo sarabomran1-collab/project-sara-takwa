@@ -12,7 +12,7 @@
 using namespace std;
 using namespace std::chrono;
 
-/* ---------- basics ---------- */
+
 struct Node {
     int x, y;
     Node(int x = 0, int y = 0) : x(x), y(y) {}
@@ -20,14 +20,13 @@ struct Node {
     bool operator<(const Node& o)  const { return x < o.x || (x == o.x && y < o.y); }
 };
 
-/* ---------- globals ---------- */
+
 vector<vector<char>> maze;
 Node startNode, goalNode;
 const char WALL  = '%', FREE  = '.', START = 'S', GOAL  = 'G';
 const char VIS   = '*', CUR   = '+', PATH  = 'P';
-bool animate = false;          // التحكم بالرسم
+bool animate = false;          
 
-/* ---------- utils ---------- */
 bool inBounds(int x, int y) {
     return x >= 0 && y >= 0 && x < (int)maze.size() && y < (int)maze[0].size();
 }
@@ -42,7 +41,7 @@ void clearScreen() {
     #endif
 }
 
-/* ---------- print maze (مرئي فقط إذا animate=true) ---------- */
+/* ---------- print maze  ---------- */
 void printMaze(const set<Node>& vis, Node current, int step) {
     if (!animate) return;
     clearScreen();
@@ -60,7 +59,7 @@ void printMaze(const set<Node>& vis, Node current, int step) {
     this_thread::sleep_for(chrono::milliseconds(200));
 }
 
-/* ---------- file loader (keyed by first line) ---------- */
+/* ---------- file loader ---------- */
 map<string, vector<vector<char>>> loadAllMazes(const string& fileName) {
     ifstream in(fileName);
     if (!in) { cout << "Error: cannot open " << fileName << '\n'; exit(1); }
@@ -430,8 +429,7 @@ int main() {
         case 'h': wanted = "hard_10x10";   break;
         default:  wanted = "";             // all
     }
-    animate = (!wanted.empty());   // نرسم فقط إذا اختار مستوى واحد
-
+    animate = (!wanted.empty());  
     for (auto& [key, oneMaze] : mazesMap) {
         if (!wanted.empty() && key != wanted) continue;
         maze = oneMaze;
