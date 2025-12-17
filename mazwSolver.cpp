@@ -89,10 +89,11 @@ Result runBFS() {
     queue<Node> q;
     set<Node> vis;
     map<Node, Node> parent;
+
     q.push(startNode);
     vis.insert(startNode);
 
-    int step = 0, pathLen = 0, pathCells = 0;   // عدّاد الخلايا المرسومة
+    int step = 0, pathLen = 0;
     auto st = high_resolution_clock::now();
     bool found = false;
 
@@ -121,10 +122,9 @@ Result runBFS() {
     if (found) {
         Node walk = goalNode;
         while (!(walk == startNode)) {
-            if (maze[walk.x][walk.y] != START && maze[walk.x][walk.y] != GOAL) {
+            if (maze[walk.x][walk.y] != START && maze[walk.x][walk.y] != GOAL)
                 maze[walk.x][walk.y] = PATH;
-                ++pathCells;            // عدّ الخلايا اللي اتغيّرت
-            }
+            ++pathLen;          // عدِّ كل خطوة
             walk = parent[walk];
         }
         cout << "BFS solved maze:\n";
@@ -133,13 +133,11 @@ Result runBFS() {
     }
     for (auto& row : maze) { for (char c : row) cout << c; cout << '\n'; }
 
-    // طباعة القيم الجديدة
     cout << "\nNodes expanded: " << step
          << "\nPath length   : " << pathLen
-         << "\nPath cells    : " << pathCells
          << "\nTime          : " << t << " s\n\n";
 
-    return {found, pathLen, step, pathCells, t};
+    return {found, pathLen, step, /*pathCells*/0, t};
 }
 /* ---------- DFS ---------- */
 Result runDFS() {
