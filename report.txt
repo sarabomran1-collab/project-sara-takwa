@@ -1,0 +1,2243 @@
+Algorithm: BFS
+  Goal reached: YES
+  Nodes expanded: 21
+  Time (ms): 63.1417
+
+Algorithm: BFS
+  Goal reached: YES
+  Nodes expanded: 7
+  Time (ms): 1765.44
+
+Algorithm: BFS
+  Goal reached: YES
+  Nodes expanded: 7
+  Time (ms): 1831.42
+
+Algorithm: BFS
+  Goal reached: YES
+  Nodes expanded: 7
+  Time (ms): 1800.62
+
+Algorithm: BFS  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 7
+  Time (ms): 1595.62
+
+Algorithm: BFS  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 7
+  Time (ms): 1541.56
+
+Algorithm: BFS  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 7
+  Time (ms): 1572.71
+
+Algorithm: BFS  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 7
+  Time (ms): 1578.16
+
+Algorithm: BFS  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 7
+  Time (ms): 1594.33
+
+Algorithm: BFS  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 7
+  Time (ms): 1592.86
+
+Algorithm: BFS  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 7
+  Time (ms): 1563.02
+
+Algorithm: BFS  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 7
+  Time (ms): 1579.6
+
+Algorithm: BFS  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 7
+  Time (ms): 1578.44
+
+Algorithm: BFS  (Maze-2)
+  Goal reached: NO
+  Nodes expanded: 26
+  Time (ms): 6017.62
+
+Algorithm: BFS  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 7
+  Time (ms): 1576.56
+
+Algorithm: BFS  (Maze-2)
+  Goal reached: NO
+  Nodes expanded: 26
+  Time (ms): 5845.68
+
+Algorithm: BFS  (Maze-3)
+  Goal reached: NO
+  Nodes expanded: 28
+  Time (ms): 6468.1
+
+Algorithm: BFS  (Maze-4)
+  Goal reached: NO
+  Nodes expanded: 47
+  Time (ms): 11201.2
+
+Algorithm: BFS  (Maze-5)
+  Goal reached: NO
+  Nodes expanded: 89
+  Time (ms): 21780
+
+Algorithm: BFS  (Maze-6)
+  Goal reached: NO
+  Nodes expanded: 223
+  Time (ms): 61308.8
+
+Algorithm: BFS  (Maze-7)
+  Goal reached: NO
+  Nodes expanded: 1714
+  Time (ms): 702272
+
+Algorithm: DFS  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 7
+  Time (ms): 1573.24
+
+Algorithm: DFS  (Maze-2)
+  Goal reached: NO
+  Nodes expanded: 26
+  Time (ms): 5852.65
+
+Algorithm: DFS  (Maze-3)
+  Goal reached: NO
+  Nodes expanded: 28
+  Time (ms): 6413.18
+
+Algorithm: DFS  (Maze-4)
+  Goal reached: NO
+  Nodes expanded: 47
+  Time (ms): 11114.1
+
+Algorithm: DFS  (Maze-5)
+  Goal reached: NO
+  Nodes expanded: 89
+  Time (ms): 22135.8
+
+Algorithm: DFS  (Maze-6)
+  Goal reached: NO
+  Nodes expanded: 223
+  Time (ms): 62193.1
+
+Algorithm: DFS  (Maze-1)
+  Goal reached: NO
+  Nodes expanded: 8
+  Time (ms): 1767.61
+
+Algorithm: DFS  (Maze-2)
+  Goal reached: YES
+  Nodes expanded: 15
+  Time (ms): 3356.93
+
+Algorithm: DFS  (Maze-3)
+  Goal reached: NO
+  Nodes expanded: 8
+  Time (ms): 1821.44
+
+Algorithm: DFS  (Maze-4)
+  Goal reached: NO
+  Nodes expanded: 5
+  Time (ms): 1137.38
+
+Algorithm: DFS  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 10
+  Time (ms): 2243.06
+
+Algorithm: DFS  (Maze-2)
+  Goal reached: NO
+  Nodes expanded: 9
+  Time (ms): 1974.03
+
+Algorithm: DFS  (Maze-3)
+  Goal reached: YES
+  Nodes expanded: 9
+  Time (ms): 1992.63
+
+Algorithm: DFS  (Maze-4)
+  Goal reached: NO
+  Nodes expanded: 9
+  Time (ms): 2009.94
+
+Algorithm: DFS  (Maze-5)
+  Goal reached: NO
+  Nodes expanded: 7
+  Time (ms): 1549.62
+
+Algorithm: DFS  (Maze-6)
+  Goal reached: YES
+  Nodes expanded: 15
+  Time (ms): 3312.85
+
+Algorithm: DFS  (Maze-7)
+  Goal reached: NO
+  Nodes expanded: 8
+  Time (ms): 1761.66
+
+Algorithm: DFS  (Maze-8)
+  Goal reached: YES
+  Nodes expanded: 14
+  Time (ms): 3123.54
+
+Algorithm: DFS  (Maze-9)
+  Goal reached: NO
+  Nodes expanded: 7
+  Time (ms): 1559.17
+
+Algorithm: DFS  (Maze-10)
+  Goal reached: YES
+  Nodes expanded: 12
+  Time (ms): 2696.38
+
+Algorithm: DFS  (Maze-1)
+  Goal reached: NO
+  Nodes expanded: 185
+  Time (ms): 45300.8
+
+Algorithm: DFS  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 65
+  Time (ms): 15884.8
+
+Algorithm: BFS  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 175
+  Time (ms): 42533.6
+
+Algorithm: DFS  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 65
+  Time (ms): 15657.2
+
+Algorithm: BFS  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 175
+  Time (ms): 25766.3
+
+Algorithm: BFS  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 175
+  Time (ms): 25399.1
+
+Algorithm: DFS  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 65
+  Time (ms): 9410.76
+
+Algorithm: Astar  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 126
+  Time (ms): 17696.7
+
+Algorithm: Astar  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 126
+  Time (ms): 18576.8
+
+Algorithm: UCS  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 179
+  Time (ms): 38284.8
+
+Algorithm: BFS  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 175
+  Time: 0 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 175
+  Time: 31.9125 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 175
+  Time: 31.9125 s
+
+Algorithm: DFS  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 65
+  Time: 12.0185 s
+
+Algorithm: DFS  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 65
+  Time: 12.0185 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 126
+  Time: 22.7962 s
+
+Algorithm: UCS  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 179
+  Time: 31.8223 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 175
+  Time: 31.2452 s
+
+Algorithm: DFS  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 65
+  Time: 11.6398 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 126
+  Time: 22.9864 s
+
+Algorithm: UCS  (Maze-1)
+  Goal reached: YES
+  Nodes expanded: 179
+  Time: 34.8482 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path length   : 0
+  Path cells    : 29
+  Time          : 23.3079 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path length   : 0
+  Path cells    : 29
+  Time          : 23.3079 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path length   : 0
+  Path cells    : 29
+  Time          : 118.06 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path length   : 0
+  Path cells    : 29
+  Time          : 5.10707 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path length   : 0
+  Path cells    : 29
+  Time          : 5.10707 s
+
+Algorithm: DFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 65
+  Path length   : 0
+  Path cells    : 0
+  Time          : 1.99039 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 126
+  Path length   : 30
+  Path cells    : 3699
+  Time          : 0 s
+
+Algorithm: UCS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 179
+  Path length   : 30
+  Path cells    : 0
+  Time          : 5.28014 s
+
+Algorithm: GBFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 41
+  Path length   : 38
+  Path cells    : 37
+  Time          : 1.17684 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path length   : 0
+  Path cells    : 29
+  Time          : 17.944 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path length   : 0
+  Path cells    : 29
+  Time          : 17.6496 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path cells    : 29
+  Time          : 18.1341 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path cells    : 29
+  Time          : 18.1341 s
+
+Algorithm: DFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 65
+  Path cells    : 0
+  Time          : 8.84167 s
+
+Algorithm: DFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 65
+  Path cells    : 0
+  Time          : 6.86139 s
+
+Algorithm: DFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 65
+  Path cells    : 45
+  Time          : 7045.07 s
+
+Algorithm: DFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 65
+  Path cells    : 45
+  Time          : 7045.07 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 126
+  Path cells    : 13506
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 126
+  Path cells    : 30
+  Time          : 12863.5 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path cells    : 29
+  Time          : 0 s
+
+Algorithm: DFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 65
+  Path cells    : 45
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 126
+  Path cells    : 30
+  Time          : 0.0013518 s
+
+Algorithm: UCS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 179
+  Path cells    : 29
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path cells    : 30
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path cells    : 29
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 126
+  Path cells    : 30
+  Time          : 0.0011126 s
+
+Algorithm: UCS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 179
+  Path cells    : 29
+  Time          : 0.0019632 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path cells    : 29
+  Time          : 0 s
+
+Algorithm: DFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 65
+  Path cells    : 45
+  Time          : 0 s
+
+Algorithm: GBFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 41
+  Path cells    : 37
+  Time          : 0 s
+
+Algorithm: GBFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 41
+  Path cells    : 37
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path cells    : 29
+  Time          : 0 s
+
+Algorithm: DFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 65
+  Path cells    : 45
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 126
+  Path cells    : 30
+  Time          : 0 s
+
+Algorithm: UCS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 179
+  Path cells    : 29
+  Time          : 0 s
+
+Algorithm: GBFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 41
+  Path cells    : 37
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path cells    : 29
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path cells    : 29
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 126
+  Path cells    : 30
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path cells    : 29
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path cells    : 29
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path cells    : 29
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 126
+  Path cells    : 30
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path cells    : 29
+  Time          : 0 s
+
+Algorithm: DFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 65
+  Path cells    : 45
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 126
+  Path cells    : 30
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path cells    : 29
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 126
+  Path cells    : 30
+  Time          : 1.0056 s
+
+Algorithm: DFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 65
+  Path cells    : 45
+  Time          : 0 s
+
+Algorithm: UCS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 179
+  Path cells    : 29
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path cells    : 30
+  Time          : 0.000 ms
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 126
+  Path cells    : 30
+  Time          : 1.007 ms
+
+Algorithm: UCS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 179
+  Path cells    : 30
+  Time          : 0.000 ms
+
+Algorithm: GBFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 41
+  Path cells    : 38
+  Time          : 0.000 ms
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path cells    : 29
+  Time          : 0.000 ms
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 126
+  Path cells    : 30
+  Time          : 0.001 ms
+
+Algorithm: UCS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 179
+  Path cells    : 29
+  Time          : 0.000 ms
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 126
+  Path cells    : 30
+  Time          : 0.001 ms
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path cells    : 29
+  Time          : 0.001 ms
+
+Algorithm: GBFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 41
+  Path cells    : 37
+  Time          : 0.000 ms
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 126
+  Path cells    : 30
+  Time          : 0.001 ms
+
+Algorithm: DFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 65
+  Path cells    : 45
+  Time          : 0.000 ms
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 126
+  Path cells    : 30
+  Time          : 0.0010115 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 126
+  Path cells    : 30
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 126
+  Path cells    : 30
+  Time          : 0.0012885 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path cells    : 29
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path cells    : 29
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 126
+  Path length   : 30
+  Path cells    : 75438
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 126
+  Path length   : 30
+  Path cells    : 75438
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path length   : 0
+  Path cells    : 29
+  Time          : 105.188 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 126
+  Path length   : 30
+  Path cells    : 75619
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path length   : 30
+  Path cells    : 0
+  Time          : 105.378 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 126
+  Path length   : 30
+  Path cells    : 75561
+  Time          : 0 s
+
+Algorithm: Greedy Best First search  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path length   : 30
+  Path cells    : 0
+  Time          : 103.875 s
+
+Algorithm: Greedy Best First search  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path length   : 30
+  Path cells    : 0
+  Time          : 24.7213 s
+
+Algorithm: Greedy Best First search  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path length   : 30
+  Path cells    : 0
+  Time          : 24.7213 s
+
+Algorithm: Greedy Best First search  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path length   : 30
+  Path cells    : 0
+  Time          : 24.8561 s
+
+Algorithm: Greedy Best First search  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path length   : 30
+  Path cells    : 0
+  Time          : 24.8561 s
+
+Algorithm: GBFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path length   : 30
+  Path cells    : 0
+  Time          : 25.8763 s
+
+Algorithm: GBFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 175
+  Path length   : 30
+  Path cells    : 0
+  Time          : 25.8763 s
+
+Algorithm: GBFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 31
+  Path length   : 30
+  Path cells    : 0
+  Time          : 4.48327 s
+
+Algorithm: GBFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 31
+  Path length   : 30
+  Path cells    : 0
+  Time          : 4.48327 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 171
+  Path length   : 25
+  Path cells    : 0
+  Time          : 23.0472 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 171
+  Path length   : 25
+  Path cells    : 0
+  Time          : 23.0472 s
+
+Algorithm: BFS  (Maze-2)
+  Goal reached : NO
+  Nodes expanded: 3
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0.421436 s
+
+Algorithm: BFS  (Maze-2)
+  Goal reached : NO
+  Nodes expanded: 3
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0.421436 s
+
+Algorithm: BFS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0.140517 s
+
+Algorithm: BFS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0.140517 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 171
+  Path length   : 25
+  Path cells    : 0
+  Time          : 22.9675 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 171
+  Path length   : 25
+  Path cells    : 0
+  Time          : 22.9675 s
+
+Algorithm: BFS  (Maze-2)
+  Goal reached : NO
+  Nodes expanded: 3
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0.422868 s
+
+Algorithm: BFS  (Maze-2)
+  Goal reached : NO
+  Nodes expanded: 3
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0.422868 s
+
+Algorithm: BFS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0.140065 s
+
+Algorithm: BFS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0.140065 s
+
+Algorithm: GBFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 15
+  Path length   : 14
+  Path cells    : 0
+  Time          : 1.8962 s
+
+Algorithm: GBFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 15
+  Path length   : 14
+  Path cells    : 0
+  Time          : 1.8962 s
+
+Algorithm: GBFS  (Maze-2)
+  Goal reached : NO
+  Nodes expanded: 3
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0.37849 s
+
+Algorithm: GBFS  (Maze-2)
+  Goal reached : NO
+  Nodes expanded: 3
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0.37849 s
+
+Algorithm: GBFS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0.121865 s
+
+Algorithm: GBFS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0.121865 s
+
+Algorithm: GBFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 15
+  Path cells    : 13
+  Time          : 0.001073 s
+
+Algorithm: GBFS  (Maze-2)
+  Goal reached : NO
+  Nodes expanded: 3
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: GBFS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: GBFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 15
+  Path cells    : 13
+  Time          : 0 s
+
+Algorithm: GBFS  (Maze-2)
+  Goal reached : NO
+  Nodes expanded: 3
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: GBFS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path cells    : 13
+  Time          : 0.0009984 s
+
+Algorithm: BFS  (Maze-2)
+  Goal reached : NO
+  Nodes expanded: 3
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path cells    : 13
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path cells    : 14
+  Time          : 0.0010033 s
+
+Algorithm: Astar  (Maze-2)
+  Goal reached : NO
+  Nodes expanded: 0
+  Path cells    : 3
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 0
+  Path cells    : 1
+  Time          : 0 s
+
+Algorithm: GBFS  (easy_10x10)
+  Goal reached : YES
+  Nodes expanded: 15
+  Path cells    : 13
+  Time          : 0 s
+
+Algorithm: GBFS  (hard_10x10)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: GBFS  (easy_10x10)
+  Goal reached : YES
+  Nodes expanded: 15
+  Path cells    : 13
+  Time          : 0 s
+
+Algorithm: Astar  (easy_10x10)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path cells    : 13
+  Time          : 0 s
+
+Algorithm: Astar  (easy_10x10)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path cells    : 13
+  Time          : 0 s
+
+Algorithm: BFS  (easy_10x10)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path cells    : 13
+  Time          : 40.2629 s
+
+Algorithm: GBFS  (medium_10x10)
+  Goal reached : YES
+  Nodes expanded: 14
+  Path cells    : 11
+  Time          : 3.89909 s
+
+Algorithm: GBFS  (easy_10x10)
+  Goal reached : YES
+  Nodes expanded: 15
+  Path cells    : 13
+  Time          : 0 s
+
+Algorithm: GBFS  (hard_10x10)
+  Goal reached : NO
+  Nodes expanded: 10
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: GBFS  (medium_10x10)
+  Goal reached : YES
+  Nodes expanded: 14
+  Path cells    : 11
+  Time          : 0 s
+
+Algorithm: GBFS  (hard_10x10)
+  Goal reached : NO
+  Nodes expanded: 10
+  Path cells    : 0
+  Time          : 2.83745 s
+
+Algorithm: GBFS  (easy_10x10)
+  Goal reached : YES
+  Nodes expanded: 15
+  Path cells    : 13
+  Time          : 4.26701 s
+
+Algorithm: GBFS  (medium_10x10)
+  Goal reached : YES
+  Nodes expanded: 14
+  Path cells    : 11
+  Time          : 3.90663 s
+
+Algorithm: GBFS  (hard_10x10)
+  Goal reached : NO
+  Nodes expanded: 10
+  Path cells    : 0
+  Time          : 2.90128 s
+
+Algorithm: Astar  (easy_10x10)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path cells    : 13
+  Time          : 17.9057 s
+
+Algorithm: Astar  (hard_10x10)
+  Goal reached : NO
+  Nodes expanded: 10
+  Path cells    : 0
+  Time          : 2.84245 s
+
+Algorithm: BFS  (easy_10x10)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path cells    : 13
+  Time          : 18.1711 s
+
+Algorithm: Astar  (easy_10x10)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path cells    : 13
+  Time          : 18.3059 s
+
+Algorithm: UCS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 41.4993 s
+
+Algorithm: UCS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 41.4993 s
+
+Algorithm: UCS  (Maze-2)
+  Goal reached : YES
+  Nodes expanded: 54
+  Path length   : 14
+  Path cells    : 0
+  Time          : 35.8585 s
+
+Algorithm: UCS  (Maze-2)
+  Goal reached : YES
+  Nodes expanded: 54
+  Path length   : 14
+  Path cells    : 0
+  Time          : 35.8585 s
+
+Algorithm: UCS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 11
+  Path length   : 0
+  Path cells    : 7
+  Time          : 0 s
+
+Algorithm: UCS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 11
+  Path length   : 0
+  Path cells    : 7
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 41.4016 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 41.4016 s
+
+Algorithm: GBFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 15
+  Path length   : 14
+  Path cells    : 0
+  Time          : 9.59189 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 41087
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 41087
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 41.1514 s
+
+Algorithm: DFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 43
+  Path length   : 0
+  Path cells    : 0
+  Time          : 27.8303 s
+
+Algorithm: UCS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 41.0119 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 40.8847 s
+
+Algorithm: DFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 43
+  Path length   : 28
+  Path cells    : 0
+  Time          : 27.3599 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 40690
+  Time          : 0 s
+
+Algorithm: UCS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 40.6411 s
+
+Algorithm: GBFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 15
+  Path length   : 14
+  Path cells    : 0
+  Time          : 9.40408 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path length   : 0
+  Path cells    : 586
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path length   : 0
+  Path cells    : 586
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-2)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path length   : 0
+  Path cells    : 572
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-2)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path length   : 0
+  Path cells    : 572
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path length   : 0
+  Path cells    : 572
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path length   : 0
+  Path cells    : 572
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path length   : 0
+  Path cells    : 577
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path length   : 0
+  Path cells    : 577
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-2)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path length   : 0
+  Path cells    : 571
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-2)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path length   : 0
+  Path cells    : 571
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path length   : 0
+  Path cells    : 579
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 37.5272 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.594613 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.594296 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 37.4543 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 37.4543 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.578467 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.578467 s
+
+Algorithm: Astar  (Maze-2)
+  Goal reached : YES
+  Nodes expanded: 39
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-2)
+  Goal reached : YES
+  Nodes expanded: 39
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 11
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 11
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.578316 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.578316 s
+
+Algorithm: BFS  (Maze-2)
+  Goal reached : YES
+  Nodes expanded: 54
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.591318 s
+
+Algorithm: BFS  (Maze-2)
+  Goal reached : YES
+  Nodes expanded: 54
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.591318 s
+
+Algorithm: BFS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 11
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 11
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: DFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 43
+  Path length   : 28
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: DFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 43
+  Path length   : 28
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: DFS  (Maze-2)
+  Goal reached : YES
+  Nodes expanded: 24
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: DFS  (Maze-2)
+  Goal reached : YES
+  Nodes expanded: 24
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: DFS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 11
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: DFS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 11
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: DFS  (Maze-1)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: DFS  (Maze-1)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: DFS  (Maze-2)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: DFS  (Maze-2)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: DFS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: DFS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.572161 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.572161 s
+
+Algorithm: BFS  (Maze-2)
+  Goal reached : YES
+  Nodes expanded: 54
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.567569 s
+
+Algorithm: BFS  (Maze-2)
+  Goal reached : YES
+  Nodes expanded: 54
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.567569 s
+
+Algorithm: BFS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 11
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 11
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.594677 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.594677 s
+
+Algorithm: BFS  (Maze-2)
+  Goal reached : YES
+  Nodes expanded: 54
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.592105 s
+
+Algorithm: BFS  (Maze-2)
+  Goal reached : YES
+  Nodes expanded: 54
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.592105 s
+
+Algorithm: BFS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 11
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 11
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: DFS  (Maze-1)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: DFS  (Maze-1)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: DFS  (Maze-2)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: DFS  (Maze-2)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: DFS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.580409 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.580409 s
+
+Algorithm: BFS  (Maze-2)
+  Goal reached : YES
+  Nodes expanded: 54
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.595913 s
+
+Algorithm: BFS  (Maze-2)
+  Goal reached : YES
+  Nodes expanded: 54
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.595913 s
+
+Algorithm: BFS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 11
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 11
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.59547 s
+
+Algorithm: Astar  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.59547 s
+
+Algorithm: Astar  (Maze-2)
+  Goal reached : YES
+  Nodes expanded: 39
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-2)
+  Goal reached : YES
+  Nodes expanded: 39
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 11
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: Astar  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 11
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: UCS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.59289 s
+
+Algorithm: UCS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.59289 s
+
+Algorithm: UCS  (Maze-2)
+  Goal reached : YES
+  Nodes expanded: 54
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.574629 s
+
+Algorithm: UCS  (Maze-2)
+  Goal reached : YES
+  Nodes expanded: 54
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.574629 s
+
+Algorithm: UCS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 11
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: UCS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 11
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: GBFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 15
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: GBFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 15
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: GBFS  (Maze-2)
+  Goal reached : YES
+  Nodes expanded: 20
+  Path length   : 16
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: GBFS  (Maze-2)
+  Goal reached : YES
+  Nodes expanded: 20
+  Path length   : 16
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: GBFS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 11
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: DFS  (Maze-1)
+  Goal reached : NO
+  Nodes expanded: 1
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.594048 s
+
+Algorithm: DFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 57
+  Path length   : 56
+  Path cells    : 0
+  Time          : 0.581062 s
+
+Algorithm: DFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 57
+  Path length   : 56
+  Path cells    : 0
+  Time          : 0.581062 s
+
+Algorithm: DFS  (Maze-2)
+  Goal reached : YES
+  Nodes expanded: 24
+  Path length   : 16
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: DFS  (Maze-2)
+  Goal reached : YES
+  Nodes expanded: 24
+  Path length   : 16
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: DFS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 11
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: DFS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 11
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: DFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 57
+  Path length   : 56
+  Path cells    : 0
+  Time          : 0.595099 s
+
+Algorithm: DFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 57
+  Path length   : 56
+  Path cells    : 0
+  Time          : 0.595099 s
+
+Algorithm: DFS  (Maze-2)
+  Goal reached : NO
+  Nodes expanded: 53
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0.593703 s
+
+Algorithm: DFS  (Maze-2)
+  Goal reached : NO
+  Nodes expanded: 53
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0.593703 s
+
+Algorithm: DFS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 13
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: DFS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 13
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.593778 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.593778 s
+
+Algorithm: BFS  (Maze-2)
+  Goal reached : NO
+  Nodes expanded: 20
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.593686 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.593686 s
+
+Algorithm: BFS  (Maze-2)
+  Goal reached : NO
+  Nodes expanded: 20
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-2)
+  Goal reached : NO
+  Nodes expanded: 20
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 13
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.57811 s
+
+Algorithm: BFS  (Maze-1)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path length   : 14
+  Path cells    : 0
+  Time          : 0.57811 s
+
+Algorithm: BFS  (Maze-2)
+  Goal reached : NO
+  Nodes expanded: 20
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-2)
+  Goal reached : NO
+  Nodes expanded: 20
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 13
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: BFS  (Maze-3)
+  Goal reached : NO
+  Nodes expanded: 13
+  Path length   : 0
+  Path cells    : 0
+  Time          : 0 s
+
+Algorithm: GBFS  (easy_10x10)
+  Goal reached : YES
+  Nodes expanded: 15
+  Path cells    : 13
+  Time          : 3.40454 s
+
+Algorithm: BFS  (easy_10x10)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path cells    : 13
+  Time          : 14.3589 s
+
+Algorithm: Astar  (easy_10x10)
+  Goal reached : YES
+  Nodes expanded: 64
+  Path cells    : 13
+  Time          : 14.3441 s
+
+Algorithm: BFS  (hard_10x10)
+  Goal reached : NO
+  Nodes expanded: 13
+  Path cells    : 0
+  Time          : 2.99359 s
+
+Algorithm: BFS  (hard_10x10)
+  Goal reached : YES
+  Nodes expanded: 15
+  Path cells    : 8
+  Time          : 3.40633 s
+
+Algorithm: Astar  (hard_10x10)
+  Goal reached : YES
+  Nodes expanded: 12
+  Path cells    : 8
+  Time          : 2.73335 s
+
+Algorithm: DFS  (hard_10x10)
+  Goal reached : YES
+  Nodes expanded: 15
+  Path cells    : 8
+  Time          : 3.42269 s
+
+Algorithm: UCS  (hard_10x10)
+  Goal reached : YES
+  Nodes expanded: 15
+  Path cells    : 8
+  Time          : 3.37647 s
+
+Algorithm: GBFS  (hard_10x10)
+  Goal reached : YES
+  Nodes expanded: 13
+  Path cells    : 8
+  Time          : 2.9395 s
+
+Algorithm: GBFS  (hard_10x10)
+  Goal reached : YES
+  Nodes expanded: 15
+  Path cells    : 13
+  Time          : 3.42165 s
+
+Algorithm: GBFS  (easy_10x10)
+  Goal reached : YES
+  Nodes expanded: 13
+  Path cells    : 8
+  Time          : 2.9405 s
+
+Algorithm: GBFS  (medium_10x10)
+  Goal reached : YES
+  Nodes expanded: 14
+  Path cells    : 12
+  Time          : 3.13482 s
+
+Algorithm: Astar  (easy_10x10)
+  Goal reached : YES
+  Nodes expanded: 17
+  Path cells    : 8
+  Time          : 3.87544 s
+
+Algorithm: BFS  (easy_10x10)
+  Goal reached : YES
+  Nodes expanded: 22
+  Path cells    : 8
+  Time          : 4.9007 s
+
+Algorithm: BFS  (easy_10x10)
+  Goal reached : YES
+  Nodes expanded: 22
+  Path cells    : 8
+  Time          : 5.9883 s
+
+Algorithm: BFS  (medium_10x10)
+  Goal reached : YES
+  Nodes expanded: 27
+  Path cells    : 12
+  Time          : 7.69163 s
+
+Algorithm: BFS  (hard_10x10)
+  Goal reached : YES
+  Nodes expanded: 41
+  Path cells    : 13
+  Time          : 12.0027 s
+
+Algorithm: DFS  (easy_10x10)
+  Goal reached : YES
+  Nodes expanded: 18
+  Path cells    : 8
+  Time          : 5.2171 s
+
+Algorithm: DFS  (medium_10x10)
+  Goal reached : YES
+  Nodes expanded: 14
+  Path cells    : 12
+  Time          : 3.81154 s
+
+Algorithm: DFS  (hard_10x10)
+  Goal reached : YES
+  Nodes expanded: 23
+  Path cells    : 13
+  Time          : 6.72453 s
+
+Algorithm: Astar  (easy_10x10)
+  Goal reached : YES
+  Nodes expanded: 17
+  Path cells    : 8
+  Time          : 4.95131 s
+
+Algorithm: Astar  (medium_10x10)
+  Goal reached : YES
+  Nodes expanded: 20
+  Path cells    : 12
+  Time          : 5.87631 s
+
+Algorithm: Astar  (hard_10x10)
+  Goal reached : YES
+  Nodes expanded: 31
+  Path cells    : 13
+  Time          : 9.33618 s
+
+Algorithm: UCS  (easy_10x10)
+  Goal reached : YES
+  Nodes expanded: 23
+  Path cells    : 8
+  Time          : 6.65096 s
+
+Algorithm: UCS  (medium_10x10)
+  Goal reached : YES
+  Nodes expanded: 28
+  Path cells    : 12
+  Time          : 8.18621 s
+
+Algorithm: UCS  (hard_10x10)
+  Goal reached : YES
+  Nodes expanded: 42
+  Path cells    : 13
+  Time          : 12.482 s
+
+Algorithm: GBFS  (easy_10x10)
+  Goal reached : YES
+  Nodes expanded: 10
+  Path cells    : 8
+  Time          : 2.78436 s
+
+Algorithm: GBFS  (medium_10x10)
+  Goal reached : YES
+  Nodes expanded: 14
+  Path cells    : 12
+  Time          : 3.75317 s
+
+Algorithm: GBFS  (hard_10x10)
+  Goal reached : YES
+  Nodes expanded: 15
+  Path cells    : 13
+  Time          : 4.23987 s
+
+Algorithm: Astar  (easy_10x10)
+  Goal reached : YES
+  Nodes expanded: 17
+  Path cells    : 8
+  Time          : 4.9039 s
+
+Algorithm: Astar  (hard_10x10)
+  Goal reached : YES
+  Nodes expanded: 31
+  Path cells    : 13
+  Time          : 9.06309 s
+
+Algorithm: GBFS  (easy_10x10)
+  Goal reached : YES
+  Nodes expanded: 10
+  Path cells    : 8
+  Time          : 2.89108 s
+
+Algorithm: Astar  (hard_10x10)
+  Goal reached : YES
+  Nodes expanded: 31
+  Path cells    : 13
+  Time          : 9.08691 s
+
+Algorithm: Astar  (easy_10x10)
+  Goal reached : YES
+  Nodes expanded: 17
+  Path cells    : 8
+  Time          : 5.09663 s
+
+Algorithm: Astar  (medium_10x10)
+  Goal reached : YES
+  Nodes expanded: 20
+  Path cells    : 12
+  Time          : 5.73322 s
+
+Algorithm: Astar  (hard_10x10)
+  Goal reached : YES
+  Nodes expanded: 31
+  Path cells    : 13
+  Time          : 8.7624 s
+
