@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <vector>
 #include <queue>
@@ -12,21 +13,22 @@
 using namespace std;
 using namespace std::chrono;
 
-
+/* ---------- basics ---------- */
 struct Node {
     int x, y;
     Node(int x = 0, int y = 0) : x(x), y(y) {}
     bool operator==(const Node& o) const { return x == o.x && y == o.y; }
-    bool operator<(const Node& o)  const { return x < o.x || (x == o.x && y < o.y); }
+    bool operator<(const Node& o)  const { return x < o.x  (x == o.x && y < o.y); }
 };
 
-
+/* ---------- globals ---------- */
 vector<vector<char>> maze;
 Node startNode, goalNode;
 const char WALL  = '%', FREE  = '.', START = 'S', GOAL  = 'G';
 const char VIS   = '*', CUR   = '+', PATH  = 'P';
-bool animate = false;          
+bool animate = false;     
 
+/* ---------- utils ---------- */
 bool inBounds(int x, int y) {
     return x >= 0 && y >= 0 && x < (int)maze.size() && y < (int)maze[0].size();
 }
@@ -59,7 +61,7 @@ void printMaze(const set<Node>& vis, Node current, int step) {
     this_thread::sleep_for(chrono::milliseconds(200));
 }
 
-/* ---------- file loader ---------- */
+/* ---------- file loader (keyed by first line) ---------- */
 map<string, vector<vector<char>>> loadAllMazes(const string& fileName) {
     ifstream in(fileName);
     if (!in) { cout << "Error: cannot open " << fileName << '\n'; exit(1); }
@@ -143,7 +145,9 @@ Result runBFS() {
 Result runDFS() {
     vector<Node> stack;
     set<Node> vis;
-    map<Node, Node> parent;
+    map<Nod
+
+e, Node> parent;
 
     stack.push_back(startNode);
     vis.insert(startNode);
@@ -198,17 +202,21 @@ int heuristic(const Node& a, const Node& b) {
     return abs(a.x - b.x) + abs(a.y - b.y);
 }
 
-/* ---------- A* ---------- */
+/* ---------- A*  ---------- */
 Result runAstar() {
-    using P = pair<int, Node>;
+    using P = pair<int, Node>;          // {f, node}
     priority_queue<P, vector<P>, greater<P>> pq;
+
+    map<Node, int> gScore;              
     map<Node, Node> parent;
-    map<Node, int> g;
 
-    g[startNode] = 0;
-    pq.push({0, startNode});
+    auto fScore = [&](const Node& n) {
+        return gScore[n] + heuristic(n, goalNode);
+    };
 
-    set<Node> vis;
+    gScore[startNode] = 0;
+    pq.push({fScore(startNode), startNode});
+
     int expanded = 0, pathCells = 0;
     auto st = high_resolution_clock::now();
     bool found = false;
@@ -217,21 +225,21 @@ Result runAstar() {
         Node cur = pq.top().second;
         pq.pop();
         ++expanded;
-        printMaze(vis, cur, expanded);
+        printMaze(set<Node>(), cur, expanded);   
+
         if (cur == goalNode) { found = true; break; }
-        vis.insert(cur);
 
         int dx[] = {-1, 1, 0, 0}, dy[] = {0, 0, -1, 1};
         for (int d = 0; d < 4; ++d) {
             int nx = cur.x + dx[d], ny = cur.y + dy[d];
             Node nb(nx, ny);
             if (!passable(nx, ny)) continue;
-            int newG = g[cur] + 1;
-            if (!g.count(nb) || newG < g[nb]) {
-                g[nb] = newG;
-                int f = newG + heuristic(nb, goalNode);
-                pq.push({f, nb});
+
+            int tentativeG = gScore[cur] + 1;
+            if (!gScore.count(nb)  tentativeG < gScore[nb]) {
+                gScore[nb] = tentativeG;
                 parent[nb] = cur;
+                pq.push({fScore(nb), nb});
             }
         }
     }
@@ -258,7 +266,6 @@ Result runAstar() {
 
     return {found, expanded, pathCells, tMs};
 }
-
 /* ---------- UCS ---------- */
 Result runUCS() {
     using P = pair<int, Node>;
@@ -274,7 +281,7 @@ Result runUCS() {
     auto st = high_resolution_clock::now();
     bool found = false;
 
-    while (!pq.empty()) {
+while (!pq.empty()) {
         Node cur = pq.top().second;
         pq.pop();
         ++expanded;
@@ -289,7 +296,7 @@ Result runUCS() {
             Node nb(nx, ny);
             if (!passable(nx, ny)) continue;
             int newG = g[cur] + 1;
-            if (!g.count(nb) || newG < g[nb]) {
+            if (!g.count(nb)  newG < g[nb]) {
                 g[nb] = newG;
                 pq.push({newG, nb});
                 parent[nb] = cur;
@@ -346,7 +353,7 @@ Result runGBFS() {
         for (int d = 0; d < 4; ++d) {
             int nx = cur.x + dx[d], ny = cur.y + dy[d];
             Node nb(nx, ny);
-            if (!passable(nx, ny) || vis.count(nb)) continue;
+            if (!passable(nx, ny)  vis.count(nb)) continue;
             parent[nb] = cur;
             pq.push({heuristic(nb, goalNode), nb});
         }
@@ -395,6 +402,7 @@ void saveReport(const string& algo, const Result& r, const string& label) {
       << "  Time          : " << r.timeMs / 1000.0 << " s\n\n";
 }
 
+
 /* ---------- main ---------- */
 int main() {
     map<string, vector<vector<char>>> mazesMap = loadAllMazes("mazes.txt");
@@ -429,7 +437,8 @@ int main() {
         case 'h': wanted = "hard_10x10";   break;
         default:  wanted = "";             // all
     }
-    animate = (!wanted.empty());  
+    animate = (!wanted.empty());   
+
     for (auto& [key, oneMaze] : mazesMap) {
         if (!wanted.empty() && key != wanted) continue;
         maze = oneMaze;
