@@ -1,0 +1,15 @@
+
+Algorithm,Maze,Expanded,PathCells,TimeSec
+Astar,easy_10x10,17,8,4.9039
+Algorithm,Maze,Expanded,PathCells,TimeSec
+Astar,hard_10x10,31,13,9.06309
+Algorithm,Maze,Expanded,PathCells,TimeSec
+GBFS,easy_10x10,10,8,2.89108
+Algorithm,Maze,Expanded,PathCells,TimeSec
+Astar,hard_10x10,31,13,9.08691
+Algorithm,Maze,Expanded,PathCells,TimeSec
+Astar,easy_10x10,17,8,5.09663
+Algorithm,Maze,Expanded,PathCells,TimeSec
+Astar,medium_10x10,20,12,5.73322
+Algorithm,Maze,Expanded,PathCells,TimeSec
+Astar,hard_10x10,31,13,8.7624
